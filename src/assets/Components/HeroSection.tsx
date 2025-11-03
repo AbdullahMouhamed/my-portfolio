@@ -21,11 +21,7 @@ export default function HeroSection() {
     const paragraphClass = isArabic
         ? "text-sm sm:text-base md:text-2xl leading-relaxed max-w-lg text-[#c0c0c0]"
         : "text-xs sm:text-sm md:text-base leading-relaxed max-w-lg text-[#c0c0c0]";
-    const buttonClass =
-        "mt-8 px-6 py-3 bg-[#3b3b3b] text-[#e0e0e0] border-4 border-[#1a1a1a] " +
-        "shadow-[4px_4px_0_#000] hover:translate-x-0.5 hover:translate-y-0.5 " +
-        "hover:shadow-[2px_2px_0_#000] active:translate-x-1 active:translate-y-1 " +
-        "active:shadow-none transition-all duration-100 uppercase text-xs sm:text-sm";
+
 
     return (
         <section
@@ -73,16 +69,7 @@ export default function HeroSection() {
                 })}
             </motion.p>
 
-            {/* Button */}
-            <motion.a
-                initial={{ opacity: 0, scale: 0.8 }}
-                animate={{ opacity: 1, scale: 1 }}
-                transition={{ delay: 2.2, duration: 0.5 }}
-                href="#projects"
-                className={buttonClass}
-            >
-                {t("hero.viewProjects", { defaultValue: "View My Projects" })}
-            </motion.a>
+           saving
         </section>
     );
 }
