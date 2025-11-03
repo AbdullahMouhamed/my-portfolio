@@ -1,0 +1,16 @@
+@import "tailwindcss";
+@import "@fontsource/press-start-2p";
+@import "@fontsource/pixelify-sans";
+
+@theme {
+  --font-pixel-en: "Press Start 2P", monospace;
+  --font-pixel-ar: "Pixelify Sans", monospace;
+}
+
+html[dir="ltr"] {
+  font-family: var(--font-pixel-en);
+}
+
+html[dir="rtl"] {
+  font-family: var(--font-pixel-ar);
+}

@@ -1,0 +1,19 @@
+{
+  "navbar": {
+    "hero": "Hero",
+    "about": "About",
+    "projects": "Projects",
+    "contact": "Contact",
+    "footer": "Footer",
+    "brand": "ABDULLAH.DEV"
+  },
+  "language": {
+    "switchToArabic": "العربية",
+    "switchToEnglish": "English"
+  },
+  "hero": {
+    "title": "Hi, I'm Abdullah ",
+    "subtitle": "I build fast, modern, and scalable web applications with a passion for clean design and powerful code",
+    "viewProjects": "View My Projects"
+  }
+}
