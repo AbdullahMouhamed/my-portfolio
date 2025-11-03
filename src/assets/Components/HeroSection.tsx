@@ -69,7 +69,7 @@ export default function HeroSection() {
                 })}
             </motion.p>
 
-           saving
+          
         </section>
     );
 }
