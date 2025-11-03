@@ -23,7 +23,7 @@ export default function Footer() {
   ];
 
   return (
-    <footer className="bg-[#2b2b2b] text-[#c0c0c0] border-t-4 border-[#3b3b3b]">
+    <footer id="footer" className="bg-[#2b2b2b] text-[#c0c0c0] border-t-4 border-[#3b3b3b]">
       <div className="max-w-6xl mx-auto px-6 md:px-20 py-12 flex flex-col md:flex-row justify-between items-center gap-8">
         {/* Brand */}
         <motion.div
