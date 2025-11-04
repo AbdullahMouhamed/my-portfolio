@@ -14,3 +14,30 @@ html[dir="ltr"] {
 html[dir="rtl"] {
   font-family: var(--font-pixel-ar);
 }
+@keyframes logoGlow {
+  0%,
+  100% {
+    text-shadow: 0 0 2px #88c070, 0 0 4px #88c070;
+  }
+  50% {
+    text-shadow: 0 0 4px #a0ff80, 0 0 8px #88c070;
+  }
+}
+
+@keyframes logoBounce {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-2px);
+  }
+}
+
+.animate-logoGlow {
+  animation: logoGlow 1.5s infinite alternate;
+}
+
+.hover\:animate-logoBounce:hover {
+  animation: logoBounce 0.2s ease-in-out;
+}

@@ -26,9 +26,9 @@ export default function HeroSection() {
     return (
         <section
             id="hero"
-            className="min-h-screen flex flex-col items-center justify-center text-center
+            className="min-h-screen flex flex-col items-center justify-center text-center px-8
                 bg-linear-to-b from-[#2b2b2b] to-[#1a1a1a] text-[#e0e0e0]
-                 border-[#1a1a1a]"
+        "
         >
             {/* Heading Animation */}
             <motion.h1

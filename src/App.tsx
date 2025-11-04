@@ -7,6 +7,7 @@ import About from "./assets/Components/About";
 import Projects from "./assets/Components/Projects";
 import Contact from "./assets/Components/Contact";
 import Footer from "./assets/Components/Footer";
+import CreeperWalk from "./assets/Components/CreeperWalk";
 
 export default function App() {
   const { i18n } = useTranslation();
@@ -22,6 +23,7 @@ export default function App() {
     <Projects />
     <Contact />
     <Footer />
+    <CreeperWalk />
   </>
   );
 }

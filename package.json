@@ -12,6 +12,8 @@
   "dependencies": {
     "@fontsource/pixelify-sans": "^5.2.7",
     "@fontsource/press-start-2p": "^5.2.7",
+    "@react-three/drei": "^10.7.6",
+    "@react-three/fiber": "^9.4.0",
     "@tailwindcss/vite": "^4.1.16",
     "framer-motion": "^12.23.24",
     "i18next": "^25.6.0",
@@ -21,7 +23,8 @@
     "react-i18next": "^16.2.3",
     "react-icons": "^5.5.0",
     "react-type-animation": "^3.2.0",
-    "tailwindcss": "^4.1.16"
+    "tailwindcss": "^4.1.16",
+    "three": "^0.181.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.36.0",
