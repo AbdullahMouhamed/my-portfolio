@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://abdullah-portfolio-app.netlify.app/sitemap.xml
