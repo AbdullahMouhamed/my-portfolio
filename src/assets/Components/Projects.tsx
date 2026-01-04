@@ -14,6 +14,18 @@ const projects = [
         image: "/images/neliz.png",
         description: "A Portfolio website deployed on Vercel.",
     },
+    {
+        name: "Interflow",
+        link: "https://app.interflow.sa/",
+        image: "/images/interflow.png",
+        description: "A Website built to manage your restaurant."
+    },
+    {
+        name: "Zoom cafe",
+        link: "https://www.zoomcafe.site/",
+        image: "/images/zoomcafe.png",
+        description: "A VPN service website built to print and control your wifi.",
+    },
 ];
 
 export default function Projects() {
