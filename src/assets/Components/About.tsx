@@ -5,7 +5,6 @@ export default function About() {
     const { t, i18n } = useTranslation();
     const isArabic = i18n.language === "ar";
     const skills = ["React", "Next.js", "TypeScript", "Tailwind", "Redux", "Bootstrap", "Framer Motion"];
-
     return (
         <section
             id="about"
