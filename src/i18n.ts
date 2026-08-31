@@ -12,8 +12,8 @@ i18n
     fallbackLng: "en",
     interpolation: { escapeValue: false },
     backend: {
-      loadPath: "/locales/{{lng}}/translation.json",
-    },
+      loadPath: `${import.meta.env.BASE_URL}locales/{{lng}}/{{ns}}.json`,
+    }
   });
 
 // Set text direction on load

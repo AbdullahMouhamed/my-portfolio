@@ -110,7 +110,7 @@ export default function CreeperWalk() {
           style={{
             width: totalFrames * frameWidth,
             height: frameHeight,
-            backgroundImage: "url('/creeper_walk.png')",
+            backgroundImage: `url('${import.meta.env.BASE_URL}creeper_walk.png')`,
             backgroundRepeat: "no-repeat",
             backgroundPosition: `-${frame * frameWidth}px 0`,
             backgroundSize: `${totalFrames * frameWidth}px ${frameHeight}px`,

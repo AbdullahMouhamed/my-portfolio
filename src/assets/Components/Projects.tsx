@@ -1,29 +1,31 @@
 import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
 
+const base = import.meta.env.BASE_URL;
+
 const projects = [
     {
         name: "EGYVPN",
         link: "https://egyvpn.com",
-        image: "/images/egyvpn.png",
+        image: `${base}images/egyvpn.png`,
         description: "A VPN service website built with modern web technologies.",
     },
     {
         name: "Neli's Arts",
         link: "https://masquerades-room.vercel.app/",
-        image: "/images/neliz.png",
+        image: `${base}images/neliz.png`,
         description: "A Portfolio website deployed on Vercel.",
     },
     {
         name: "Interflow",
         link: "https://app.interflow.sa/",
-        image: "/images/interflow.png",
+        image: `${base}images/interflow.png`,
         description: "A Website built to manage your restaurant."
     },
     {
         name: "Zoom cafe",
         link: "https://www.zoomcafe.site/",
-        image: "/images/zoomcafe.png",
+        image: `${base}images/zoomcafe.png`,
         description: "A VPN service website built to print and control your wifi.",
     },
 ];
