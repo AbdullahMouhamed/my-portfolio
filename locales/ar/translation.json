@@ -1,0 +1,19 @@
+{
+  "navbar": {
+    "hero": "الرئيسية",
+    "about": "نبذة",
+    "projects": "المشاريع",
+    "contact": "تواصل",
+    "footer": "تذييل",
+    "brand": "ABDULLAH.DEV"
+  },
+  "language": {
+    "switchToArabic": "العربية",
+    "switchToEnglish": "English"
+  },
+    "hero": {
+    "title": "مرحبًا، أنا عبدالله ",
+    "subtitle": "أبني تطبيقات ويب سريعة وعصرية وقابلة للتوسع بشغف في التصميم النظيف والبرمجة القوية",
+    "viewProjects": "شاهد مشاريعي"
+  }
+}
